@@ -1,0 +1,171 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1800px;
+	background-color: #34282C;
+}
+.vk{
+	height: 45px;
+	width: 100%;
+	background-color: #3a3b3c;
+	display: flex;
+	align-items: center;
+}
+.vktext{
+	margin: 0 auto;
+	text-align: left;
+	transform: translate(-220%,0);
+	font-size: 25px;
+	color: white;
+	cursor: pointer;
+}
+::-webkit-input-placeholder { 
+    color:#3a3b3c;
+}
+.search{
+	border: 1px solid #3a3b3c	;
+	display: inline-flex;
+	margin: 0 auto;
+	padding: 0 20px;
+	justify-content: space-between;
+	transform: translate(-250%,0);
+	overflow: hidden;
+	height: 35px;
+	border-radius: 10px;
+	background-color: #666362;
+
+}
+.main{
+	display: flex;
+	justify-content:center;
+	padding-top: 25px;
+	background-color: #34282C;
+}
+.but{
+	border: none;
+	background-color: transparent;
+}
+.input{
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: #3a3b3c;	 
+}
+.prof{
+	padding-left: 27px;
+	cursor: pointer;
+
+}
+.icons{
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	font-family: "Maim Hacked";
+}
+.icons p{
+	color:#0AFFFF;
+}
+.imgs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15px;
+	border: none;
+	background-color: transparent;
+}
+p{
+	color: white;
+}
+.first {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin-right: 115px;
+	margin-left: 115px;
+}
+.first1{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid white;
+	padding: 10px;
+	width: 100%;
+}
+.first1 p{
+	margin: 0;
+	margin-right: 15px;
+}
+.second {
+	display: flex;
+}
+.input1{
+	border: 1px solid white;
+	outline: none;
+	background-color: transparent;
+	color: #3a3b3c;
+	margin-top: 2px;
+	width: 100%;
+	padding: 10px;	
+}
+.first3{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid white;
+	width: 100%;
+	padding: 10px;
+}
+.second1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:10px;
+}
+.second2 img{
+	height: 100px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.second2{
+	display: flex;
+}
+h2{
+	margin: 0;
+	margin-bottom: 5px;
+	color: whitesmoke;
+	font-size: 20px;
+}
+.second2 p{
+	margin: 0;
+	margin-bottom: 10px;
+}
+.first4{
+	display: flex;
+	flex-direction: column;
+
+}
+.second4 img{
+	height: 80px;
+	border-radius: 50%;
+	width: 80px;
+	margin-right: 10px;
+}
+.second3{
+	border: 1px solid white;
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 250px;
+}
+.second4{
+	border: 1px solid white;
+	padding: 10px;
+	width: 250px;
+}
+.second4 p{
+	margin: 0;
+}
+.second5 {
+	display: flex;
+	margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
